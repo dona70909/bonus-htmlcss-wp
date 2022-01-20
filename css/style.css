@@ -173,8 +173,9 @@ h4{
 /* ----------------------------BONUS HOVER------------------------ */
 
 li:hover{
-    color: black;
+    color: rgb(196, 24, 24);
     text-decoration:underline ;
+    
 }
 
 .back-img , .back-img-big{
