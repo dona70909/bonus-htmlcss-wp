@@ -175,6 +175,8 @@ h4{
 li:hover{
     color: black;
     text-decoration:underline ;
+    transform: scale(1.5);
+    background-color: whitesmoke;
     
 }
 
@@ -205,6 +207,13 @@ li:hover{
 .small-clm:hover .img-aside ,.big-clm:hover .img-center{
     display:none;
 }
+
+/* .zoom {
+    transition: transform .2s;
+    width: 100px;
+    height: 100px;
+   /*  margin: 0 auto; */
+  } */
 
 
 
