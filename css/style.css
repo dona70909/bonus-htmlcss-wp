@@ -120,6 +120,8 @@ h4{
     border-radius: 15px;
     filter: brightness(79%);
     margin-bottom: 15px;
+
+    object-fit: cover;
 }
 
 .img-center{
@@ -128,6 +130,7 @@ h4{
     border-radius: 15px;
     filter: brightness(79%);
     margin-bottom:15px;
+    object-fit: cover;
 }
 /* *************************** */
 
@@ -148,6 +151,8 @@ h4{
     border-radius: 15px;
     filter: brightness(76%);
     height: 545px;
+    object-fit: cover;
+
 }
 
 
@@ -182,6 +187,7 @@ li:hover{
     border-radius: 15px;
     filter: brightness(79%);
     margin-bottom: 15px;
+    object-fit: cover;
 }
 
 .big-clm:hover .back-img-big{
@@ -191,6 +197,7 @@ li:hover{
     border-radius: 15px;
     filter: brightness(79%);
     margin-bottom:15px;
+    object-fit: fill;
 }
 
 .small-clm:hover .img-aside ,.big-clm:hover .img-center{
