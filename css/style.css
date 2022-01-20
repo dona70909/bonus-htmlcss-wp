@@ -228,7 +228,7 @@ li:hover{
 }
 
 .small-clm:hover .back-img{
-    display:inline-block;
+    display:block;
     width:100%;
     height: 192.021px;
     border-radius: 15px;
@@ -238,7 +238,7 @@ li:hover{
 }
 
 .big-clm:hover .back-img-big{
-    display:inline-block;
+    display:block;
     width:100%;
     height: 192.021px;
     border-radius: 15px;
@@ -247,9 +247,19 @@ li:hover{
     object-fit: fill;
 }
 
-.small-clm:hover .img-aside ,.big-clm:hover .img-center{
+.small-clm:hover .img-aside ,
+.big-clm:hover .img-center{
     display:none;
 }
+
+.small-clm:hover .small-opacity{
+    display: none;
+}
+
+.big-clm:hover .medium-opacity{
+    display: none;
+}
+
 
 
 
