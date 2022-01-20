@@ -165,4 +165,28 @@ h4{
 }
 
 
+/* ----------------------------BONUS HOVER------------------------ */
+
+li:hover{
+    color: black;
+}
+
+.back-img{
+    display: none;
+}
+
+.img-aside:hover .back-img{
+    display:inline-block;
+}
+
+.img-aside:hover {
+    display:none;
+}
+
+
+
+
+
+
+
 
