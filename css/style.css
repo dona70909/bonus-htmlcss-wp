@@ -119,7 +119,7 @@ h4{
     height: 192.021px;
     /* filter: brightness(79%); */
     border-radius: 15px;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
 
     position: absolute;
 }
@@ -129,8 +129,7 @@ h4{
     height: 192.021px;
     /* filter: brightness(79%); */
     border-radius: 15px;
-    margin-bottom:15px;
-
+    /* margin-bottom:15px; */
     position: absolute;
 }
 /* *************************** */
@@ -175,6 +174,7 @@ h4{
     position: relative;
     height: 192.02px;
     width:192.02px;
+    margin-bottom: 15px;
 }
 
 .small-opacity{
@@ -183,13 +183,13 @@ h4{
     width:192.02px;
     background-color: rgba(3, 3, 3,0.5);
     border-radius: 15px;
-    margin-bottom: 15px;
 }
 
 .wrap-image-medium{
     position: relative;
     height:192.02px;
     width: 606.6;
+    margin-bottom: 15px;
 }
 
 .medium-opacity{
@@ -198,7 +198,7 @@ h4{
     width: 606.6px;
     background-color: rgba(3, 3, 3,0.5);
     border-radius: 15px;
-    margin-bottom:15px;
+    /* margin-bottom:15px; */
 }
 /* *********************************************************************+  */
 
