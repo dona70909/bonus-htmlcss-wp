@@ -171,15 +171,29 @@ li:hover{
     color: black;
 }
 
-.back-img{
+.back-img , .back-img-big{
     display: none;
 }
 
-.img-aside:hover .back-img{
+.small-clm:hover .back-img{
     display:inline-block;
+    width:100%;
+    height: 192.021px;
+    border-radius: 15px;
+    filter: brightness(79%);
+    margin-bottom: 15px;
 }
 
-.img-aside:hover {
+.big-clm:hover .back-img-big{
+    display:inline-block;
+    width:100%;
+    height: 192.021px;
+    border-radius: 15px;
+    filter: brightness(79%);
+    margin-bottom:15px;
+}
+
+.small-clm:hover .img-aside ,.big-clm:hover .img-center{
     display:none;
 }
 
