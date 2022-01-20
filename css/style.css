@@ -130,6 +130,8 @@ h4{
     /* filter: brightness(79%); */
     border-radius: 15px;
     margin-bottom:15px;
+
+    position: absolute;
 }
 /* *************************** */
 
@@ -153,7 +155,7 @@ h4{
    height: 575px;
    
 }
-
+/* ------------------------------------------OPACITY------------------- */
 .effect-opacity{
     width:100%;
     border-radius: 15px;
@@ -184,6 +186,21 @@ h4{
     margin-bottom: 15px;
 }
 
+.wrap-image-medium{
+    position: relative;
+    height:192.02px;
+    width: 606.6;
+}
+
+.medium-opacity{
+    position: absolute;
+    height:192.02px;
+    width: 606.6px;
+    background-color: rgba(3, 3, 3,0.5);
+    border-radius: 15px;
+    margin-bottom:15px;
+}
+/* *********************************************************************+  */
 
 #logo-header{
     width: 146px;
