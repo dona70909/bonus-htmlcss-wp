@@ -173,7 +173,7 @@ h4{
 /* ----------------------------BONUS HOVER------------------------ */
 
 li:hover{
-    color: rgb(196, 24, 24);
+    color: black;
     text-decoration:underline ;
     
 }
