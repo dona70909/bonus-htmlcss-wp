@@ -120,6 +120,8 @@ h4{
     /* filter: brightness(79%); */
     border-radius: 15px;
     margin-bottom: 15px;
+
+    position: absolute;
 }
 
 .img-center{
@@ -166,7 +168,21 @@ h4{
     position: relative;
     height: 575px;
 }
+/* small wrap opacity */
+.wrap-image-small{
+    position: relative;
+    height: 192.02px;
+    width:192.02px;
+}
 
+.small-opacity{
+    position: absolute;
+    height:192.02px;
+    width:192.02px;
+    background-color: rgba(3, 3, 3,0.5);
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
 
 
 #logo-header{
@@ -181,7 +197,7 @@ h4{
 #title-header{
     font-size: 30px;
 }
-
+/* *********************************HOVER********************************************** */
 li:hover{
     color: black;
     text-decoration:underline ;
